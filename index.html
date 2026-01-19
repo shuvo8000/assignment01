@@ -1,44 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-       
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KnowledgeVault</title>
 
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./style.css">
 </head>
-<body class="inter">
-<nav class="nav">
-    <div class="logo">
-        <img src="./assets/logo-navbar.png" alt="">
-    </div>
 
-    <div class="nav-content">
-         <li>features</li>
-         <li>How it works</li>
-         <li>why it'S Different</li>
-    </div>
-    <div class="btn">
-        Get Early Access
-    </div>
+<body class="inter">
+
+
+<nav class="nav">
+  <div class="container nav-inner">
+    <img src="./assets/logo-navbar.png" class="logo" alt="KV">
+
+    <ul class="nav-links">
+      <li>Features</li>
+      <li>How it Works</li>
+      <li>Why It's Different</li>
+    </ul>
+
+    <button class="btn">Get Early Access</button>
+  </div>
 </nav>
 
 <section id="banner">
-    <div class="img">
-       <img src="./assets/hero-bg.png" alt="">
+  <img src="./assets/hero-bg.png" class="banner-bg" alt="">
+  <div class="overlay"></div>
+
+  <div class="container banner-content">
+  <div class="badge-wrapper">
+  <span class="badge">Early Access Now Open</span>
+</div>
+
+
+    <h1>
+      Structured Thinking,<br>
+      <span>Not Just Note-Taking.</span>
+    </h1>
+
+    <p>
+      A private space to store notes, links, and learning summaries — designed to
+      help you think clearly, connect ideas, and turn learning into long-term knowledge.
+    </p>
+
+    <div class="hero-btns">
+      <button class="btn">Start Building Your Vault<i class="fa-solid fa-arrow-right"></i></button>
+      <button class="btn outline">
+        <i class="fa-solid fa-play"></i> See How It Works
+      </button>
     </div>
- <div class="banner-content">
-    <h3>Early Access Now Open</h3>
-    <h1>Structured thinking,not just note-taking.</h1>
-    <p>A private space to store notes, links, and learning summaries — designed to
-       help you think clearly, connect ideas, and turn learning into long-term knowledge</p>
- </div>
+  </div>
 </section>
+
+
+<section class="problem">
+  <div class="container">
+    <h2>Notes Don't Fail, Structure Does.</h2>
+    <p class="sub">
+      You're not bad at learning. Your tools just weren't built for how knowledge actually works.
+    </p>
+
+    <div class="problem-grid">
+
+      <div class="card">
+        <div class="icon-circle">
+          <img src="./assets/Vector.png" alt="">
+        </div>
+        <h3>Scattered Notes</h3>
+        <p>Your ideas live in 10 different apps, none connected.</p>
+      </div>
+
+      <div class="card">
+        <div class="icon-circle">
+          <img src="./assets/Bookmarks.png" alt="">
+        </div>
+        <h3>Bookmark Overload</h3>
+        <p>Hundreds of saved links you'll never revisit or remember.</p>
+      </div>
+
+      <div class="card active">
+        <div class="icon-circle">
+          <img src="./assets/Brain.png" alt="">
+        </div>
+        <h3>No Idea Connections</h3>
+        <p>Insights stay isolated, never building into bigger understanding.</p>
+      </div>
+
+      <div class="card">
+        <div class="icon-circle">
+          <img src="./assets/Info.png" alt="">
+        </div>
+        <h3>Forgetting What You Learned</h3>
+        <p>Knowledge fades because there's no system to retain it.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section class="solution">
+  <div class="container solution-grid">
+    <div class="solution-img">
+      <img src="./assets/knowledge.png" alt="">
+    </div>
+
+    <div class="solution-text">
+      <span class="label">THE SOLUTION</span>
+      <h2>Your Second Brain,<br>Structured By Design.</h2>
+
+      <p>
+        Personal Knowledge Vault isn't another note-taking app.
+        It's a thinking environment where every note, link, and summary
+        becomes part of an interconnected web of understanding.
+      </p>
+
+      <ul>
+        <li><img src="./assets/CheckCircle.png"> Capture ideas with structure built-in from day one</li>
+        <li><img src="./assets/CheckCircle.png"> Connect related concepts automatically as you write</li>
+        <li><img src="./assets/CheckCircle.png"> Build lasting knowledge through reflection prompts</li>
+        <li><img src="./assets/CheckCircle.png"> Find anything instantly with semantic search</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+<section class="cta">
+  <div class="container">
+    <h2>Ready To Think More Clearly?</h2>
+    <p>
+      Join thousands of learners who are building their personal knowledge vaults.
+      Start free, no credit card required.
+    </p>
+
+    <button class="btn">Get Early Access<i class="fa-solid fa-arrow-right"></i></button>
+    <small>Free during early access • No credit card needed</small>
+  </div>
+</section>
+
+
+<footer>
+  <div class="container footer-top">
+    
+
+    <div class="footer-logo">
+      <img src="./assets/logo-footer.png" alt="KnowledgeVault">
+    </div>
+
+    <div class="footer-social">
+      <h4>Social Links</h4>
+      <div class="social-icons">
+        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    © 2026 Personal Knowledge Vault. All rights reserved.
+  </div>
+</footer>
+
+
 </body>
 </html>
